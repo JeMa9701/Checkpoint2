@@ -1,5 +1,6 @@
 # Q.5.7 On importe la fonction log qui s'appelle Functions.psm1
 Import-Module "C:\Scripts\Functions.psm1"
+
 Function Random-Password
 {
     param ([Int]$Length = 8)
